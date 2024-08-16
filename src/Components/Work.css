@@ -1,0 +1,61 @@
+.work-section-wrapper {
+  margin-top: 5rem;
+  position: relative;
+  background-image: url(../Assets/watermark2right.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.work-section-top p {
+  text-align: center;
+  max-width: 600px !important;
+}
+
+.work-section-top h1 {
+  max-width: 700px !important;
+}
+
+.work-section-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.work-section-info {
+  width: 20rem;
+  min-height: 15rem;
+  background: linear-gradient(to bottom, rgba(255, 219, 205, 0) 25%, rgba(255, 219, 205, 0.5) 50%, rgba(255, 219, 205, 1) 100%);
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+  color: #505050;
+  margin: 1rem 2rem;
+}
+
+.work-section-info h2 {
+  margin: 1rem 0rem;
+}
+
+.work-section-bottom {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.work-section-info p {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.work-heading {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
